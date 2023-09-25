@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 355px;
+    height: 340px;
+    border-radius: 10px;
+ background-color: rgb(54, 54, 95);
+    
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
+}
+.icone{
+color: #45f5a1;
+}
+.titulo{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+}
+.desc{
+    color: #ffffff96;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
+.link{
+    margin: 10px 0px 0px 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #45f5a1;
+}
+
