@@ -2,6 +2,7 @@
 .section {
 
     background-color: #000;
+
     
 }
 
@@ -10,7 +11,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 22px;
     max-width: 1200px;
     margin: 0 auto;
+    
 
 }
