@@ -1,0 +1,15 @@
+.titulo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: "DM Sans", Sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.4em;
+
+}
+.container{
+    display: flex;
+    padding:20px;
+    border-bottom: 1px solid #ffffff23;
+}

@@ -5,33 +5,39 @@
     width: 355px;
     height: 340px;
     border-radius: 10px;
- background-color: rgb(54, 54, 95);
-    
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, rgba(17, 23, 18, 1) 100%);
+
+
 }
-.conteudo{
+
+.conteudo {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 50px;
 }
-.icone{
-color: #45f5a1;
+
+.icone {
+    color: #45f5a1;
 }
-.titulo{
+
+.titulo {
     color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-size: 22px;
 }
-.desc{
+
+.desc {
     color: #ffffff96;
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
 }
-.link{
+
+.link {
     margin: 10px 0px 0px 0px;
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
     color: #45f5a1;
 }
-
