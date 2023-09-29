@@ -1,0 +1,28 @@
+.footer {
+    background-color: #000;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto{
+    color: #fff;
+    
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+}
+.icon{
+    color: #fff;
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,43 @@
+.Sessao {
+    background-color: #000;
+}
+
+.container {
+    padding: 0px 22px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerConteudo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    letter-spacing: 1.5px
+}
+
+.desc {
+    color: #ffffff96;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.4em;
+    max-width: 480px;
+    padding: 15px;
+
+}
+
+.cards {
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

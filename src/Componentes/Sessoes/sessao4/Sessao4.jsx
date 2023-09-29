@@ -20,7 +20,7 @@ export default function Sessao4() {
 
 
                     </div>
-                    <img src={bitcoin} />
+                    <img className={styles.img} src={bitcoin} />
                 </div>
             </div>
 
