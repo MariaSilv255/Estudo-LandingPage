@@ -1,19 +1,18 @@
-
 .section {
 
     background-color: #000;
 
-    
+
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 22px;
+    padding: 0px 30px;
     max-width: 1200px;
     margin: 0 auto;
-    
+    gap: 37px;
 
 }

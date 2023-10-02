@@ -10,12 +10,6 @@ export default function ItemExpandir({ titulo, desc }) {
         setOpen(!open);
     }
    
-
-    
-
-
-
-
     return (
 
         <div className={styles.container}>

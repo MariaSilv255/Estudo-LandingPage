@@ -1,15 +1,21 @@
-
 .section {
     background-color: #45f5a1;
 }
 
 .conteudo {
     display: flex;
-    padding: 120px 22px;
+    padding: 120px 30px;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+
+}
+
+@media (max-width: 762px) {
+    .conteudo {
+        flex-direction: column;
+    }
 
 }
 
@@ -26,13 +32,14 @@
     color: #000;
     font-family: 'DM Sans', sans-serif;
     font-size: 78px;
-    max-width: 580px;
+    max-width: 574px;
     font-weight: 600;
     line-height: 1;
     letter-spacing: 1.5px;
 
 }
-.desc{
+
+.desc {
     padding: 20px 0px;
     max-width: 680px;
     color: #000000CC;
@@ -41,7 +48,7 @@
     line-height: 1.45em;
 }
 
-.botao{
+.botao {
     font-family: "DM Sans", Sans-serif;
     font-size: 15px;
     font-weight: 600;

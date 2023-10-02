@@ -19,36 +19,22 @@ export default function Sessao3() {
                 </div>
 
                 <div className={styles.grupoItens}>
-                    <Grid container spacing={7}>
-                        <Grid xs={6}>
+                    <Grid container spacing={7} >
+                        <Grid xs={12}  md={6} sm={6} mdOffset={0} >
                             <CardWid numero={1}/>
                         </Grid>
-                        <Grid xs={6}>
-                            {/**linha vazia */}
-                        </Grid>
-                        <Grid xs={6}>
-                            {/**linha vazia */}
-                        </Grid>
-                        <Grid xs={6}>
+                       
+                        <Grid xs={12} sm={6} md={6} mdOffset={6}>
                             <CardWid numero={2}/>
                         </Grid>
 
-                        <Grid xs={6}>
-                            <CardWid numero={3}/>
+                        <Grid xs={12} sm={6} md={6} mdOffset={0}>
+                            <CardWid numero={3} />
                         </Grid>
-                        <Grid xs={6}>
-                            {/**linha vazia */}
+                       
+                        <Grid xs={12} sm={6} md={6} mdOffset={6}>
+                            <CardWid numero={4} />
                         </Grid>
-                        <Grid xs={6}>
-                            {/**linha vazia */}
-                        </Grid>
-                        <Grid xs={6}>
-                            <CardWid numero={4}/>
-                        </Grid>
-                        <Grid xs={12}>
-                            {/**linha vazia */}
-                        </Grid>
-
                     </Grid>
                 </div>
             </div>

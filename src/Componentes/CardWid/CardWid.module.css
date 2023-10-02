@@ -1,24 +1,25 @@
-.container{
+.container {
     background-color: #000;
-    position: relative;  
+    position: relative;
     border-radius: 7px;
-    
-}
-
-.caixinha{
-background-color: #45f5a1;
-width: 81px;
-height: 81px;
-padding: 17px 24px;
-margin-left: 35px;
-font-family: 'Lato', sans-serif;
-font-size: 44px;
-position: absolute;
-margin-top: -60px;
-border-radius: 7px;
 
 }
-.desc{
+
+.caixinha {
+    background-color: #45f5a1;
+    width: 81px;
+    height: 81px;
+    padding: 17px 24px;
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    position: absolute;
+    margin-top: -60px;
+    border-radius: 7px;
+
+}
+
+.desc {
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     letter-spacing: 1.5px;

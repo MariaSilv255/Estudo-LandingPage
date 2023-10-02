@@ -11,7 +11,7 @@
 
 .container {
     display: flex;
-    padding: 20px;
+ 
 
 }
 
@@ -21,7 +21,6 @@
 
     display: flex;
     justify-content: row;
-    padding: 30px 45px;
     color: #B1B1B1;
     font-family: "DM Sans", Sans-serif;
     padding: 10px 15px 20px 50px;

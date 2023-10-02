@@ -11,13 +11,9 @@ export default function Cabecalho() {
                     <div className={styles.logo}><img src={logo} alt='Logo da Stratus' /></div>
                     <nav className={styles.menu}>
                         <a>Home</a>
-                        <a>Pages</a>
-                        <a>Portfolio</a>
-                        <a>Features</a>
                         <a>Blog</a>
-                        <a>Shops</a>
-                        <a>Purchase</a>
-                        <a><IoBagHandleOutline size={22} /></a>
+                        <a>Produtos</a>
+                        <a>Sobre</a>
                     </nav >
                 </div >
             </header >

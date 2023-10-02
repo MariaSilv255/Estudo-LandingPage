@@ -20,7 +20,7 @@ export default function Sessao4() {
 
 
                     </div>
-                    <img className={styles.img} src={bitcoin} />
+                    <img className={styles.img} title="Imagem financeiro" alt="Imagem de uma figura de bitcoin" src={bitcoin}/>
                 </div>
             </div>
 

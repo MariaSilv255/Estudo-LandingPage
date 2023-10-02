@@ -3,11 +3,11 @@
 
     background-color: #000;
     background-image: url('../../../img/bolinhas.svg');
-    padding: 0px 22px 115px;
+    padding: 0px 30px 115px;
 }
 
 .conteudo {
-    padding: 120px 22px;
+    padding: 120px 30px;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;

@@ -11,6 +11,12 @@
 
 }
 
+@media (max-width: 762px) {
+    .container {
+        width: 90%;
+    }
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
