@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { MdArrowDropUp } from "react-icons/md";
-import styles from "./ItemExpandir.module.css";
-import { Transform } from "@mui/icons-material";
+import { Texto } from "../Texto.style";
+import styled, { keyframes } from "styled-components";
+
+
+
 export default function ItemExpandir({ titulo, desc }) {
 
     const [open, setOpen] = useState(false);
@@ -9,21 +12,49 @@ export default function ItemExpandir({ titulo, desc }) {
     const showOrHide = () => {
         setOpen(!open);
     }
+
+
+    const conteudo = keyframes`
+  from { 
    
+        opacity: 0.3;
+        transform: translateY(5px);
+    }
+    to{
+                transform: translateY(0px);
+    
+  }  
+`;
+    const Conteudo = styled.span`
+    animation: ${conteudo} 2s ;
+    display: flex;
+    justify-content: row;
+    color: #B1B1B1;
+    font-family: "DM Sans", Sans-serif;
+    padding: 10px 15px 20px 50px;
+    max-width: 580px;
+    line-height: 1.4em;
+    font-weight: bold;
+    font-size: 15px;
+    `
+        ;
+
     return (
 
-        <div className={styles.container}>
-
+        <>
             <div onClick={showOrHide}>
-                <div className={styles.titulo}>
-                    <MdArrowDropUp /> <h3 className={styles.titulo}>{titulo}</h3>
-                </div>
+                <Texto>
+                    <MdArrowDropUp /> <Texto> {titulo}</Texto>
+                </Texto>
                 <div>
-                    {open ? <span className={styles.desc}>{desc}</span> : null}
+                    {open ?
+                        <Conteudo>{desc}</Conteudo>
+                        : null}
                 </div>
             </div>
-        </div>
 
+
+        </>
     );
 
 }

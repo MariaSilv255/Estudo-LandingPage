@@ -1,7 +1,6 @@
 
 import logo from '../../img/logo.png';
 import styles from './Cabecalho.module.css';
-import { IoBagHandleOutline } from "react-icons/io5";
 
 export default function Cabecalho() {
     return (
