@@ -44,7 +44,7 @@ export default function ItemExpandir({ titulo, desc }) {
         <>
             <div onClick={showOrHide}>
                 <Texto>
-                    <MdArrowDropUp /> <Texto> {titulo}</Texto>
+                    <MdArrowDropUp size={35}/> <Texto> {titulo}</Texto>
                 </Texto>
                 <div>
                     {open ?
