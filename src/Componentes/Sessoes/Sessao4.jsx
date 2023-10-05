@@ -5,8 +5,8 @@ import { Container } from "../Container.style";
 import { SubTitle } from "../Subtitle.style";
 import { Description } from "../description.styles";
 import img from '../../img/captura.png';
-
 import styled from "styled-components";
+import { Fade } from 'react-reveal';
 
 export default function Sessao4() {
 
@@ -29,28 +29,28 @@ export default function Sessao4() {
             
     `;
 
-
-
-
     return (
         <Wrapper>
             <Container>
                 <Justificar>
                     <Line>
-                        <SubTitle cor={'#fff'}>Questions</SubTitle>
-                        <Description cor={'#FFFFFF96'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus quam tincidunt, sodales turpis ne.</Description>
+                        <Fade bottom duration={2000}>
+                            <SubTitle cor={'#fff'}>Questions</SubTitle>
+                            <Description cor={'#FFFFFF96'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus quam tincidunt, sodales turpis ne.</Description>
+                        </Fade>
+                       
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
+                            <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
 
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-                        <ItemExpandir titulo='Lorem ipsum dolor sit amet, consectetur adipiscing elit?' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus tortor at dolor venenatis lacinia. Quisque vulputate vehicula sapien maximus aliquam. Morbi ac dignissim erat. In hac habitasse platea dictumst.' />
-
-
+                        
                     </Line>
-
-                    <Img><img width={'100%'} src={img} alt="Imagem de um bitcoin" title="Imagem de bitcoin"/></Img>
+                    <Fade duration={2000}>
+                        <Img><img width={'100%'} src={img} alt="Imagem de um bitcoin" title="Imagem de bitcoin" /></Img>
+                    </Fade>
                 </Justificar>
 
             </Container>

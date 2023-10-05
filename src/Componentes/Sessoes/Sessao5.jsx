@@ -6,6 +6,8 @@ import { GroupCard } from '../GroupCard.style';
 import { SubTitle } from '../Subtitle.style';
 import { Description } from '../description.styles';
 import styled from 'styled-components';
+import { Fade } from 'react-reveal';
+
 export default function Sessao5() {
 
 
@@ -19,15 +21,20 @@ export default function Sessao5() {
     return (
         <Wrapper >
             <Container>
-                <Line>
-                    <SubTitle cor={'#fff'}>Find out more</SubTitle>
 
-                    <Description cor={'#FFFFFF96'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Description>
+                <Line>
+                    <Fade bottom duration={2000}>
+                        <SubTitle cor={'#fff'}>Find out more</SubTitle>
+
+                        <Description cor={'#FFFFFF96'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Description>
+                    </Fade>
                 </Line>
                 <GroupCard>
-                    <Card icon={<BsPerson size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
-                    <Card icon={<BsPersonAdd size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
-                    <Card icon={<BsChatLeftDots size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
+                    <Fade duration={1800}>
+                        <Card icon={<BsPerson size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
+                        <Card icon={<BsPersonAdd size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
+                        <Card icon={<BsChatLeftDots size={45} />} titulo={'Meet the Team'} desc={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor.'} />
+                    </Fade>
                 </GroupCard>
             </Container>
         </Wrapper>

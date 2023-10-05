@@ -5,8 +5,8 @@ import { Wrapper } from '../Wrapper.style';
 import { Container } from '../Container.style';
 import { SubTitle } from '../Subtitle.style';
 import { Description } from '../description.styles';
-
 import { Center } from '../Center.style';
+import { Fade } from 'react-reveal';
 
 
 
@@ -15,11 +15,14 @@ export default function Sessao3() {
         <Wrapper img={'branco'} cor={'#ebe1e16e'}>
             <Container>
                 <Center>
-                    <SubTitle>
-                        How it Works
-                    </SubTitle>
-                    <Description> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat.</Description>
+                    <Fade bottom duration={2000}>
+                        <SubTitle>
+                            How it Works
+                        </SubTitle>
+                        <Description> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat.</Description>
+                    </Fade>
                 </Center>
+
 
 
 
